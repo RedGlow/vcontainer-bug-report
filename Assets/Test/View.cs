@@ -5,7 +5,7 @@ namespace Test
 {
     public class View: MonoBehaviour
     {
-        [Inject] public Service Service { get; init; }
+        [Inject] public Service Service { get; set; }
 
         private void Start()
         {
